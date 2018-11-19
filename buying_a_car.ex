@@ -1,3 +1,6 @@
+# For the kata, see https://www.codewars.com/kata/554a44516729e4d80b000012
+# To run the tests, do elixir -r buying_a_car.ex
+
 defmodule Buycar do
   def nb_months(priceOld, priceNew, savingperMonth, percentLossByMonth) do
     calculate_months(priceOld, priceNew, savingperMonth, percentLossByMonth, 0, 0)
@@ -35,7 +38,6 @@ defmodule Buycar do
 end
 
 ExUnit.start()
-# To run the tests, do elixir -r buying_a_car.ex
 
 defmodule BuycarTest do
   use ExUnit.Case
